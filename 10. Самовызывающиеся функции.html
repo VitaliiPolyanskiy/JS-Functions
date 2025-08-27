@@ -21,6 +21,10 @@
                 result *= i;
             document.write("Факториал числа " + n + " равен " + result);
         }(5));
+
+        (() => {
+            console.log("Сразу вызвано!");
+            })();
     </script>
 </body>
 
